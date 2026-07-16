@@ -4,7 +4,7 @@ from game_controller import GameController
 
 def main():
     print("=================================================")
-    print("   Starting BugFX Authoritative Server (Python)  ")
+    print("   Starting Bugs Of Orion Authoritative Server (Python)  ")
     print("=================================================")
 
     try:
@@ -17,7 +17,7 @@ def main():
         print("[System] Igniting core game loop...")
         control.run_game()
 
-        print("[System] BugFX Server is online and listening for connections.")
+        print("[System] Bugs Of Orion Server is online and listening for connections.")
         print("[System] Type 'exit' in the console at any time to safely shut down.")
         print("=================================================")
 
