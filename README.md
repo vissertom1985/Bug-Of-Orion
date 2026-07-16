@@ -1,6 +1,6 @@
-# 🐛 BugFX: Authoritative Multiplayer Shooter
+# 🐛 Bugs Of Orion: Authoritative Multiplayer Shooter
 
-**BugFX** is a high-performance, real-time multiplayer top-down shooter built on a strict **Authoritative Server** architecture.
+**Bugs Of Orion** is a high-performance, real-time multiplayer top-down shooter built on a strict **Authoritative Server** architecture.
 
 The project demonstrates decoupled system design, pairing a multithreaded, headless Python game engine with a lightweight, framework-free HTML5 Canvas frontend.
 
@@ -8,7 +8,7 @@ The project demonstrates decoupled system design, pairing a multithreaded, headl
 
 ## 🧠 Architectural Highlights
 
-Rather than relying on heavy game engines or bloated JSON payloads, BugFX is engineered from the ground up for maximum performance and low latency.
+Rather than relying on heavy game engines or bloated JSON payloads, Bugs Of Orion is engineered from the ground up for maximum performance and low latency.
 
 * **Authoritative Python Backend:** A headless, tick-based game loop running on an asynchronous event loop. It maintains the absolute truth of the game state, handles collision math, and safely processes high-frequency inputs using thread-safe queues.
 
@@ -51,7 +51,7 @@ Rather than relying on heavy game engines or bloated JSON payloads, BugFX is eng
 Clone the repository and spin up the Python backend.
 
 ```bash
-git clone [https://github.com/yourusername/bugfx.git](https://github.com/yourusername/bugfx.git)
+git clone [https://github.com/vissertom1985/bug-of-orion.git](https://github.com/vissertom1985/bug-of-orion.git)
 cd bugfx/server
 
 # Create and activate a virtual environment
